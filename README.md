@@ -13,7 +13,7 @@ In this project we will explore "How to extract information from the popular Goo
 
 Goodreads is one the world’s largest community for reviewing and recommending books. It's a favorite platform for many a voracious readers!!
 
-This project is partly inspired by following linked project. Reference link :
+This project is partly inspired by following linked project. Reference link : https://medium.com/@soodakriti175/goodreads-web-scraping-92345b620f9c
 
 I have structured this first python notebook detailing below tasks:
 
