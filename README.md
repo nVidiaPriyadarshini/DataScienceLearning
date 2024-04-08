@@ -26,3 +26,7 @@ Relevant files:
 (Output) goodreads_fiction_types - goodreads_fiction_types
 goodreads_web_scraping.py
 GoodReads_Web_Scraping.ipynb
+
+
+# About Me
+Let’s connect at https://www.linkedin.com/in/vpnarayanan/ and exchange ideas about the latest tech trends and advancements! 🌟
