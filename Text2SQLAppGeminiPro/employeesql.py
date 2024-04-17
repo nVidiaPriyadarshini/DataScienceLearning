@@ -48,7 +48,17 @@ CREATE TABLE Sales (
     FOREIGN KEY (ProductID) REFERENCES Products(ProductID)
 );
 """
-cursor.execute(sales_table_info)
+# cursor.execute(sales_table_info)
+
+user_feedback_table_info = """
+CREATE TABLE user_feedback (
+    "SQLGenerated"	VARCHAR(300),
+	"DatabaseName"	VARCHAR(100),
+	"Question"	VARCHAR(100),
+	"User_feedback"	VARCHAR(300)
+);
+"""
+#cursor.execute(user_feedback_table_info)
 
 # Insert some more records
 
