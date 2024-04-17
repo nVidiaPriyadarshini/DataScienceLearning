@@ -1,9 +1,7 @@
 # DataScienceLearning
 Sharing some python notebooks created along my Data Science Learning Journey
 
-Project 1
-
-GoodReads Web Scraping
+## Project 1: GoodReads Web Scraping
 
 Scraping is simply a process of extracting (from various means), copying and screening of data. Web scraping provides a way to the developers to collect and analyze data from the internet.
 
@@ -27,9 +25,11 @@ Relevant files:
 goodreads_web_scraping.py
 GoodReads_Web_Scraping.ipynb
 
-Project 2
+## Project 2: Text2SQLApplication
+
 Converting Natural Language to SQL and querying a database using Gemini Pro LLM
-(Link to Text2SQL Application and Readme)[https://github.com/nVidiaPriyadarshini/DataScienceLearning/tree/main/Text2SQLAppGeminiPro]
+
+CodeBase: [https://github.com/nVidiaPriyadarshini/DataScienceLearning/tree/main/Text2SQLAppGeminiPro]
 
 # About Me
 Let’s connect at https://www.linkedin.com/in/vpnarayanan/ and exchange ideas about the latest tech trends and advancements! 🌟
