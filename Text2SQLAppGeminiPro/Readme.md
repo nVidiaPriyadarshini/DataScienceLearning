@@ -13,7 +13,7 @@ This script [sql.py](https://github.com/nVidiaPriyadarshini/DataScienceLearning/
 It stores student name, class, section and marks details
 
 ### EmployeeManagement Database
-   The script [Employeesql](https://github.com/nVidiaPriyadarshini/DataScienceLearning/blob/main/Text2SQLAppGeminiPro/employeesql.py)creates below four tables with some records :
+   The script [Employeesql](https://github.com/nVidiaPriyadarshini/DataScienceLearning/blob/main/Text2SQLAppGeminiPro/employeesql.py) creates below four tables with some records :
 
     **Departments**: Stores information about different departments in the company.
 
