@@ -1,7 +1,7 @@
 # DataScienceLearning
 Sharing some python notebooks created along my Data Science Learning Journey
 
-Day 1
+Project 1
 
 GoodReads Web Scraping
 
@@ -27,6 +27,9 @@ Relevant files:
 goodreads_web_scraping.py
 GoodReads_Web_Scraping.ipynb
 
+Project 2
+Converting Natural Language to SQL and querying a database using Gemini Pro LLM
+(Link to Text2SQL Application and Readme)[https://github.com/nVidiaPriyadarshini/DataScienceLearning/tree/main/Text2SQLAppGeminiPro]
 
 # About Me
 Let’s connect at https://www.linkedin.com/in/vpnarayanan/ and exchange ideas about the latest tech trends and advancements! 🌟
