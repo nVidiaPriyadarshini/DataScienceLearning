@@ -2,7 +2,7 @@
 
 Text 2 SQL LLM Application
 
-[Control Flow Diagram](https://github.com/nVidiaPriyadarshini/DataScienceLearning/blob/main/Text2SQLAppGeminiPro/assets/Text2SQL.png)
+![Control Flow Diagram](https://github.com/nVidiaPriyadarshini/DataScienceLearning/blob/main/Text2SQLAppGeminiPro/assets/Text2SQL.png)
 ```Prompt --> LLM --> GeminiPro --> Query --> SQLDatabase --> Response```
 
 ## Setup
