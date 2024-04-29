@@ -42,6 +42,15 @@ def write_user_feedback(sql, db):
     connection.close()
 
 
+def read_sql_query_secrets_file(sql_query, db):
+    # Create the SQL connection to db as specified in your secrets file.
+    conn = st.connection(db, type='sql')
+    with conn.session as s:
+        s.execute(sql_query)
+        rows = s.execute('Select * from ' + db)
+        st.dataframe(rows)
+
+
 def read_given_sql_query(sql, db):
     query_db = db + ".db"
     print("Querying db: " + query_db)
@@ -135,21 +144,23 @@ if submit:
     st.code(gen_sql, language='sql')
     sub_header_text = "The Answer to: " + question
     st.subheader(sub_header_text, divider='rainbow')
+
     response = read_given_sql_query(gen_sql, selected_db)
+    #response = read_sql_query_secrets_file(gen_sql, selected_db)
     for row in response:
         print(row)
         st.header(row)
-    insert_sql = ("Insert into User_feedback values(" + "'" + gen_sql + "'," + "'"
-                  + selected_db + "'," + "'" + question + "', \"no_comments\")")
-    st.code(insert_sql, language='sql')
+    #insert_sql = ("Insert into User_feedback values(" + "'" + gen_sql + "'," + "'"
+                  #+ selected_db + "'," + "'" + question + "', \"no_comments\")")
+    #st.code(insert_sql, language='sql')
     #write_user_feedback(insert_sql, selected_db)
 user_comments = st.text_area("Kindly let us know your feedback if any")
 feedback = st.button("Submit Feedback!")
 
 if feedback:
-    insert_sql = "Insert into User_feedback values('" + user_comments + "'," + "'" + selected_db + "'," + "'" + question + "',\"Not Applicable\");"
-    st.code(insert_sql, language='sql')
+    #insert_sql = "Insert into User_feedback values('" + user_comments + "'," + "'" + selected_db + "'," + "'" + question + "',\"Not Applicable\");"
+    #st.code(insert_sql, language='sql')
     st.subheader("':sunglasses:' Thank you!!':sunglasses:'", divider='rainbow')
-    write_user_feedback(insert_sql, selected_db)
+    #write_user_feedback(insert_sql, selected_db)
 
 
