@@ -1,5 +1,5 @@
 # DataScienceLearning
-Sharing some python notebooks created along my Data Science Learning Journey
+Sharing some Python notebooks created along my Data Science Learning Journey
 
 ## Project 1: GoodReads Web Scraping
 
