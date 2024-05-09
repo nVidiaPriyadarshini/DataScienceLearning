@@ -3,22 +3,22 @@ Sharing some python notebooks created along my Data Science Learning Journey
 
 ## Project 1: GoodReads Web Scraping
 
-Scraping is simply a process of extracting (from various means), copying and screening of data. Web scraping provides a way to the developers to collect and analyze data from the internet.
+Scraping is simply a process of extracting (from various means), copying, and screening data. Web scraping provides a way for developers to collect and analyze data from the internet.
 
 Web-scraping provides one of the great tools to automate most of the things a human does while browsing.
 
-In this project we will explore "How to extract information from the popular Good Reads platform to analyze and generate interesting insights around Book Trends"
+In this project, we will explore "How to extract information from the popular Good Reads platform to analyze and generate interesting insights around Book Trends"
 
-Goodreads is one the world’s largest community for reviewing and recommending books. It's a favorite platform for many a voracious readers!!
+Goodreads is one the world’s largest community for reviewing and recommending books. It's a favorite platform for many voracious readers!!
 
-This project is partly inspired by following linked project. Reference link : https://medium.com/@soodakriti175/goodreads-web-scraping-92345b620f9c
+This project is partly inspired by the following linked project. Reference link: https://medium.com/@soodakriti175/goodreads-web-scraping-92345b620f9c
 
-I have structured this first python notebook detailing below tasks:
+I have structured this first Python notebook detailing below tasks:
 
-How to scrape certain sections of a page using Beautiful Soup? In particular, all books listed under a Good Reads user defined list in a given page.
-How to iteratively scrape all pages to obtain specific attributes on all books related information belonging to a particular list?
-How to load the scraped contents into a Pandas dataframe?
-How to expand the scope and iteratively scrape all lists for books related information for a list of user defined tags and append the extracted info to an existing .csv file loaded in Google Drive? Example: Tags such as "fiction", "science-fiction" etc.
+How to scrape certain sections of a page using Beautiful Soup? In particular, all books are listed under a Good Reads user-defined list on a given page.
+How to iteratively scrape all pages to obtain specific attributes on all books-related information belonging to a particular list?
+How to load the scraped contents into a Pandas data frame?
+How to expand the scope and iteratively scrape all lists for book-related information for a list of user-defined tags and append the extracted info to an existing .csv file loaded in Google Drive? Example: Tags such as "fiction", "science-fiction" etc.
 
 Relevant files: 
 (Output) goodreads_fiction_types - goodreads_fiction_types
@@ -50,6 +50,7 @@ In this exercise, we will build a classifier model from scratch that can disting
 2. Build a small convnet from scratch to solve our classification problem
 3. Evaluate training and validation accuracy
 
-CodeBase: [Cat vs. Dog Image Classification]()
+CodeBase: [Cat vs. Dog Image Classification](https://github.com/nVidiaPriyadarshini/DataScienceLearning/blob/main/Copy_of_image_classification_part1.ipynb)
+
 # About Me
 Let’s connect at https://www.linkedin.com/in/vpnarayanan/ and exchange ideas about the latest tech trends and advancements! 🌟
