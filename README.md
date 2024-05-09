@@ -29,7 +29,7 @@ GoodReads_Web_Scraping.ipynb
 
 Converting Natural Language to SQL and querying a database using Gemini Pro LLM
 
-CodeBase: [https://github.com/nVidiaPriyadarshini/DataScienceLearning/tree/main/Text2SQLAppGeminiPro]
+CodeBase: [Text2SQLAppGeminiPro](https://github.com/nVidiaPriyadarshini/DataScienceLearning/tree/main/Text2SQLAppGeminiPro)
 
 ## Project 3: Ensemble_Project 
 
