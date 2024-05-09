@@ -37,7 +37,7 @@ A telecom company wants to use its historical customer data and leverage machine
 
 The objective, as a data scientist hired by the telecom company, is to build a model that will help to identify the potential customers who have a higher probability of churn. This will help the company to understand the pain points and patterns of customer churn and will increase the focus on strategizing customer retention.
 
-CodeBase: 
+CodeBase: [Ensemble_Project.ipynb]
 
 # About Me
 Let’s connect at https://www.linkedin.com/in/vpnarayanan/ and exchange ideas about the latest tech trends and advancements! 🌟
