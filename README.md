@@ -39,5 +39,17 @@ The objective, as a data scientist hired by the telecom company, is to build a m
 
 CodeBase: [Ensemble_Project.ipynb](https://github.com/nVidiaPriyadarshini/DataScienceLearning/blob/main/Ensemble_Project.ipynb)
 
+## Project 4: Cat Vs. Dog Image Classification
+
+Building a Convnet from Scratch
+[Estimated completion time: 20 minutes]
+
+In this exercise, we will build a classifier model from scratch that can distinguish dogs from cats. We will follow these steps:
+
+1. Explore the example data
+2. Build a small convnet from scratch to solve our classification problem
+3. Evaluate training and validation accuracy
+
+CodeBase: [Cat vs. Dog Image Classification]()
 # About Me
 Let’s connect at https://www.linkedin.com/in/vpnarayanan/ and exchange ideas about the latest tech trends and advancements! 🌟
